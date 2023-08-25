@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="day9cw.js"></script>
+</head>
+<body>
+    <label for="color">Choose a Text Color:</label>
+    <select onchange="color()" id="tColor">
+        <option>black</option>
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>yellow</option>
+      </select>
+<br><br>
+
+    <label for="bgc">Choose a Backgroung Color:</label>
+    <select onchange="bgCol()" id="bgc">
+        <option>white</option>
+        <option>red</option>
+        <option>blue</option>
+        <option>green</option>
+        <option>yellow</option>
+      </select>
+<br><br>
+
+    <label for="pad">Choose Padding:</label>
+    <select onchange="pad()" id="pad">
+        <option>10px</option>
+        <option>20px</option>
+        <option>30px</option>
+        <option>40px</option>
+      </select>
+<br><br>
+    <label for="fSize">Choose Font Size:</label>
+    <select onchange="fSize()" id="fSize">
+        <option>1rem</option>
+        <option>2rem</option>
+        <option>3rem</option>
+        <option>4rem</option>
+      </select>
+<br><br>
+    <label for="fWeight">Choose Font Weight:</label>
+    <select onchange="fWeight()" id="fWeight">
+        <option>normal</option>
+        <option>bold</option>
+      </select>
+<br><br>
+
+<div id="root">This is the div on which the properties are being applied</div>
+</body>
+</html>
